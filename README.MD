@@ -51,13 +51,4 @@ curl -v http://localhost:8080
 docker compose logs lb --tail 200
 ```
 
-- Se o `index.html` foi salvo vazio por engano, restaure o conteúdo local e execute `docker compose restart`.
-
-**Contribuição**
-- Sinta-se à vontade para abrir issues, propor melhorias no `nginx.conf` (ex.: health checks, sticky sessions) ou adicionar conteúdo dinâmico aos servidores web.
-
-**Licença**
-- MIT — use à vontade para fins educacionais.
-
-Obrigado — divirta-se testando balanceamento de carga!
 
